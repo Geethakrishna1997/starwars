@@ -21,9 +21,9 @@ export default function Table({peopleList}){
         human : 'http://swapi.dev/api/species/1/'
     }
 
-    const icon=(url)=>{
-        dispatch(startGetSpecies(url))
-    }
+    // const icon=(url)=>{
+    //     dispatch(startGetSpecies(url))
+    // }
 
     // const icon=()=>{
     //     peopleList.map((people)=>{

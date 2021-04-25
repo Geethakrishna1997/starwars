@@ -46,21 +46,21 @@ export const searchPeople=(data)=>{
     }
 }
 
-export const startGetSpecies=(url)=>{
-    return ((dispatch)=>{
-        axios.get(`${url}`)
-            .then((response)=>{
-                const result=response.data
-                console.log('specie',result)
-                // dispatch(getSpecies(result))
-            })
-            .catch((err)=>alert(` specie error ${err.message}`))
-    })
-}
+// export const startGetSpecies=(url)=>{
+//     return ((dispatch)=>{
+//         axios.get(`${url}`)
+//             .then((response)=>{
+//                 const result=response.data
+//                 console.log('specie',result)
+//                 // dispatch(getSpecies(result))
+//             })
+//             .catch((err)=>alert(` specie error ${err.message}`))
+//     })
+// }
 
-export const getSpecies=(data)=>{
-    return {
-        type : 'GET_SPECIES',
-        payload : data
-    }
-}
+// export const getSpecies=(data)=>{
+//     return {
+//         type : 'GET_SPECIES',
+//         payload : data
+//     }
+// }
